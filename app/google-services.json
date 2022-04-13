@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "408796985223",
+    "firebase_url": "https://joy-voyage-88ff2.firebaseio.com",
+    "project_id": "joy-voyage-88ff2",
+    "storage_bucket": "joy-voyage-88ff2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408796985223:android:0cb435ce10925773008522",
+        "android_client_info": {
+          "package_name": "dug.morn.night.prego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408796985223-52v5amjt13fv75488mj348rcpe7at0b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB_eggnORAQAmXNl5rFlNsZYdQAiXiSxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408796985223-52v5amjt13fv75488mj348rcpe7at0b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

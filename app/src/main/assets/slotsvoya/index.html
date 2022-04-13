@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css?v=0.0.5">
+</head>
+<body class="is-loader">
+
+    <!-- Slot machine example -->
+
+    <!-- <div class="preloader">
+        <div class="preloader__logo">
+            <img src="images/Loading.png">
+            <div class="preloader__indicator">
+                <div class="preloader__progress"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="header">
+        <div class="casino__container">
+            <a href="#" id="showLobby">
+                <img src="images/lobby.png" height="30">
+            </a>
+            <div id="bankTotal" class="bank"></div>
+        </div>
+    </div>
+    
+    <!-- Slot machine example -->
+    <div id="casino">
+        <div class="content">    
+            <div class="machinDisplay">
+                <div id="casino1" class="slotMachine">
+                    <div class="slot slot__1"></div>
+                    <div class="slot slot__2"></div>
+                    <div class="slot slot__3"></div>
+                    <div class="slot slot__4"></div>
+                    <div class="slot slot__5"></div>
+                </div>
+            
+                <div id="casino2" class="slotMachine">
+                    <div class="slot slot__1"></div>
+                    <div class="slot slot__2"></div>
+                    <div class="slot slot__3"></div>
+                    <div class="slot slot__4"></div>
+                    <div class="slot slot__5"></div>
+                </div>
+            
+                <div id="casino3" class="slotMachine">
+                    <div class="slot slot__1"></div>
+                    <div class="slot slot__2"></div>
+                    <div class="slot slot__3"></div>
+                    <div class="slot slot__4"></div>
+                    <div class="slot slot__5"></div>
+                </div>
+
+            </div>
+        </div>
+    
+        <div class="casino__controlls">
+            <div class="casino__container">
+    
+                <button id="autoShuffle" type="button">AUTO</button>
+
+                <div class="bet-slider">
+
+                    <div class="winner-display">
+                        <img src="images/winner-display.png">
+                        <span></span>
+                    </div>
+
+                    <div class="bet-slider__wrapper">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div data-bet="0.50" class="bet-slider__item swiper-slide">0.50</div>
+                                <div data-bet="1.00" class="bet-slider__item swiper-slide">1.00</div>
+                                <div data-bet="1.50" class="bet-slider__item bet-slider__item-active swiper-slide">1.50</div>
+                                <div data-bet="2.00" class="bet-slider__item swiper-slide">2.00</div>
+                                <div data-bet="3.00" class="bet-slider__item swiper-slide">3.00</div>
+                                <div data-bet="4.00" class="bet-slider__item swiper-slide">4.00</div>
+                                <div data-bet="5.00" class="bet-slider__item swiper-slide">5.00</div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>                    
+                </div>
+
+                <button id="casinoShuffle" type="button">SPIN</button>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="lobby">
+        <div id="showLobby1" class="lobby__item"><img src="images/lobby_item_1.png"></div>
+        <div id="showLobby2" class="lobby__item"><img src="images/lobby_item_2.png"></div>
+        <div id="showLobby3" class="lobby__item"><img src="images/lobby_item_3.png"></div>
+    </div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+        crossorigin="anonymous"></script>
+    <script src="js/app.js?v=0.0.5"></script>
+
+</body>
+</html>

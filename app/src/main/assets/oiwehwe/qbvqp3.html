@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<style> 
+	#MyProgress
+	 { position: absolute; top: 50%; transform: translate(0, -50%); width: 100%; background-color: #ddd; } 
+     
+
+     #myBar
+      { width: 1%; height: 100px; background-color: #83689b; } 
+</style><body style=" background-color: black">
+    <h1 style="font-size: 40px; height: : 50px; color: #8811f2; opacity: 1.0; position: absolute; padding-top: 10%; left: 50%; transform: translate(-50%, -10%);">Loading...</h1><div id='MyProgress'><div id='myBar'></div></div>
+            <br> 
+
+            <script> 
+            	var i = 0;
+            	function movingBar() {
+            		//console.log(" call  on ")
+            		if( i == 0){
+            			i = 1;
+            			var elem = document.getElementById("myBar");
+            			var width = 0.1;
+            			var id = setInterval(frame, 100);
+            			function frame(){
+            				if(width >= 100){
+            					clearInterval(id);
+            					i = 0;
+            				}else{
+            					width++;
+            					//console.log(" go frames \n ")
+            					elem.style.width = width + "%";
+            				}
+            			}
+            		}
+            	}
+            </script> 
+            <script type="text/javascript">movingBar()</script>
+                    </body>
+                    </html>

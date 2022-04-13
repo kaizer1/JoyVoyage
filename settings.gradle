@@ -1,0 +1,6 @@
+include ':app'
+rootProject.name = "JoyVoyage"
+def firebase_cpp_sdk_dir = System.getProperty('firebase_cpp_sdk.dir')
+
+gradle.ext.firebase_cpp_sdk_dir = "$firebase_cpp_sdk_dir"
+includeBuild "$firebase_cpp_sdk_dir"
